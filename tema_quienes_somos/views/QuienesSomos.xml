@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<openerp>
+<data>
+
+<template name="quienes_somos" id="website.quienes_somos" page="True">
+  <t t-call="website.layout">
+   <div id="wrap">
+     <div id="">
+       <h1>Patricia de las Virtudes.</h1>
+       <h2>Gerente.</h2>
+		<field name="f1">
+    		<![CDATA[<img  src="/tema_quienes_somos/static/src/img/brit1.jpg"/>]]>
+		</field>               
+     </div>
+      <div>
+       <h1>Britney Spears.</h1>
+       <h2>Jefa de departamento.</h2>
+		<field name="f2">
+    		<![CDATA[<img  src="/tema_quienes_somos/static/src/img/brit2.jpg"/>]]>
+		</field>
+                
+       <!-- === Snippets' area === -->
+       <div class="oe_structure" />
+     </div>     
+      <div>
+       <h1>Amparito Jiménez.</h1>
+       <h2>Relaciones públicas..</h2>
+		<field name="f3">
+    		<![CDATA[<img  src="/tema_quienes_somos/static/src/img/brit3.jpg"/>]]>
+		</field>
+                
+       <!-- === Snippets' area === -->
+       <div class="oe_structure" />
+     </div>
+   </div>
+  </t>
+</template>
+
+<record id="quienes_somos_menu" model="website.menu">
+  <field name="name">Quienes Somos</field>
+  <field name="url">/page/quienes_somos</field>
+  <field name="parent_id" ref="website.main_menu" />
+  <field name="sequence" type="int">100</field>
+</record>
+
+</data>
