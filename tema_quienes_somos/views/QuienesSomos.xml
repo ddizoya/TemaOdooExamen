@@ -5,14 +5,14 @@
 <template name="quienes_somos" id="website.quienes_somos" page="True">
   <t t-call="website.layout">
    <div id="wrap">
-     <div id="">
+     <div id="a">
        <h1>Patricia de las Virtudes.</h1>
        <h2>Gerente.</h2>
 		<field name="f1">
     		<![CDATA[<img  src="/tema_quienes_somos/static/src/img/brit1.jpg"/>]]>
 		</field>               
      </div>
-      <div>
+      <div id="b">
        <h1>Britney Spears.</h1>
        <h2>Jefa de departamento.</h2>
 		<field name="f2">
@@ -22,7 +22,7 @@
        <!-- === Snippets' area === -->
        <div class="oe_structure" />
      </div>     
-      <div>
+      <div id="c">
        <h1>Amparito Jiménez.</h1>
        <h2>Relaciones públicas..</h2>
 		<field name="f3">
