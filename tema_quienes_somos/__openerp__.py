@@ -1,12 +1,11 @@
 {
-  'name':'Tema Tutorial de David Diz',
-  'description': 'Pruebas para Odoo',
+  'name':'Examen Tema David Diz',
+  'description': 'Examen',
   'version':'1.0',
   'author':'David Diz',
 
  'data': [
   'views/layout.xml',
-  'views/pages.xml',
   'views/QuienesSomos.xml',
    'views/assets.xml',
 ],
